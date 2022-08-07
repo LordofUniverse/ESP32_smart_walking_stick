@@ -3,7 +3,6 @@
 #define BUZZER_PIN 17 // ESP32 pin GIOP17 connected to Piezo Buzzer's pin
 #define DISTANCE_THRESHOLD 80 // centimeters
 
-// The below are variables, which can be changed
 float duration_us, distance_cm;
 
 void setup() {
@@ -29,8 +28,6 @@ void loop() {
   Serial.print(distance_cm);  
 
   if (distance_cm < DISTANCE_THRESHOLD){
-    Serial.print("oho:");
-    Serial.println(12.5 * distance_cm);
     digitalWrite(BUZZER_PIN, HIGH); // turn on Piezo Buzzer
     delay(12.5 * distance_cm); 
     digitalWrite(BUZZER_PIN, LOW);  // turn off Piezo Buzzer
