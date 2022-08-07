@@ -1,14 +1,14 @@
 # ESP32_smart_walking_stick
 
 ## Materials used:
-  ESP32
-  UltraSonic sensor
-  Piezo buzzer
-  5V Regulator
-  9V Battery
-  A long pipe
-  Switch
-  Set of wires
+  ESP32<br>
+  UltraSonic sensor<br>
+  Piezo buzzer<br>
+  5V Regulator<br>
+  9V Battery<br>
+  A long pipe<br>
+  Switch<br>
+  Set of wires<br>
   
 ## About the project:
   We have made smart walking stick in the aim of helping people by detecting any object in front of them. 
@@ -16,7 +16,7 @@
   produces sound for amount of time linear to how far the object is. 
   
 ## Author:
-  Vinu Rakav S(owner of this repo)
-  Kriti A
-  Rashmi Khetan
-  Sripradheep K
+  Vinu Rakav S(owner of this repo)<br>
+  Kriti A<br>
+  Rashmi Khetan<br>
+  Sripradheep K<br>
